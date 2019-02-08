@@ -1,0 +1,16 @@
+name: delongd8
+recipe: pantheon
+config:
+  framework: drupal8
+  site: delongd8
+  id: 545434d9-28d2-4ff3-8440-7a607ccc190e
+tooling:
+  composer:
+    service: appserver
+    description: Run composer commands
+    cmd:
+      - php -dmemory_limit=-1 /usr/local/bin/composer
+  drush:
+    service: appserver
+    description: Run commands
+    cmd: php -d memory_limit=-1 /usr/local/bin/drush
