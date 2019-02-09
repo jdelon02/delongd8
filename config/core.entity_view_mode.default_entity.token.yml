@@ -1,0 +1,10 @@
+uuid: 716d5ecd-32f6-43ec-af34-521ed9e02639
+langcode: en
+status: true
+dependencies:
+  module:
+    - config_direct_save
+id: default_entity.token
+label: Token
+targetEntityType: default_entity
+cache: true

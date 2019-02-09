@@ -1,0 +1,18 @@
+uuid: 0d18c727-9f03-4323-9dea-4861cc188283
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Case Study'
+type: case_study
+description: 'A test content type.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true
